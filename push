@@ -3,13 +3,15 @@
 #
 #  Author:    Abbas Abdulmalik
 #  Created:	  March 30, 2016
-#  Modified:	 (Date)
+#  Modified:	 November 3, 2106
 #  Original:	 push (name may have changed)
 #  Purpose: 	 A single command to commit and push
 #          	  local master git repo to remote origin (github)
 #  Note: 	    Requires a memo as arguments
 #
 ################################
+clear
+
 if [ "${1}" = "" ];
  then 
   echo
